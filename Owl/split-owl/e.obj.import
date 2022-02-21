@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/e.obj-da97702d8c918f32f96e92d5b8dd73d0.mesh"
+
+[deps]
+
+files=[ "res://.import/e.obj-da97702d8c918f32f96e92d5b8dd73d0.mesh" ]
+
+source_file="res://Owl/split-owl/e.obj"
+dest_files=[ "res://.import/e.obj-da97702d8c918f32f96e92d5b8dd73d0.mesh", "res://.import/e.obj-da97702d8c918f32f96e92d5b8dd73d0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 0.01, 0.01, 0.01 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

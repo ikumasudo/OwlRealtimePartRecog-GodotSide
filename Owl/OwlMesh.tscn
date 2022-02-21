@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Owl/split-owl/f.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Owl/split-owl/a.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Owl/split-owl/h.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://Owl/split-owl/g.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://Owl/split-owl/b.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://Owl/split-owl/d.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Owl/split-owl/c.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://Owl/split-owl/e.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Owl/white.tres" type="Material" id=9]
+
+[node name="OwlMesh" type="Spatial"]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="BLL" type="MeshInstance" parent="."]
+use_in_baked_light = true
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 9 )
+
+[node name="FLL" type="MeshInstance" parent="."]
+mesh = ExtResource( 5 )
+material/0 = ExtResource( 9 )
+
+[node name="FUR" type="MeshInstance" parent="."]
+mesh = ExtResource( 7 )
+material/0 = ExtResource( 9 )
+
+[node name="BUR" type="MeshInstance" parent="."]
+mesh = ExtResource( 6 )
+material/0 = ExtResource( 9 )
+
+[node name="FUL" type="MeshInstance" parent="."]
+mesh = ExtResource( 8 )
+material/0 = ExtResource( 9 )
+
+[node name="BUL" type="MeshInstance" parent="."]
+mesh = ExtResource( 1 )
+material/0 = ExtResource( 9 )
+
+[node name="FLR" type="MeshInstance" parent="."]
+mesh = ExtResource( 4 )
+material/0 = ExtResource( 9 )
+
+[node name="BLR" type="MeshInstance" parent="."]
+mesh = ExtResource( 3 )
+material/0 = ExtResource( 9 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+editor_only = true
